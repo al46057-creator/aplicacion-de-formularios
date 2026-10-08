@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selector de autocompletado y personalizacion</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+    <style>
+        body {
+            background-color: #f3ead8;
+            font-family: "Times New Roman", serif;
+        }
+
+        h1 {
+            color: #de0a0a;
+        }
+
+        p {
+            color: #e50505;
+        }
+
+        table {
+            background-color: #fffaf0;
+            border: 1px solid #ece9e6;
+            padding: 15px;
+        }
+
+        td {
+            padding: 8px;
+        }
+
+        input, select {
+            padding: 5px;
+        }
+
+        button {
+            background-color: #dd060d;
+            color: white;
+            padding: 8px 15px;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Personalización de perfil</h1>
+
+    <p>Completa los siguientes datos para personalizar tu perfil.</p>
+
+    <form>
+        <table>
+
+            <tr>
+                <td colspan="2"><strong>Datos del perfil</strong></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="nombre">Nombre:</label>
+                </td>
+                <td>
+                    <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="correo">Correo:</label>
+                </td>
+                <td>
+                    <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="edad">Edad:</label>
+                </td>
+                <td>
+                    <input type="number" id="edad" name="edad" min="1" max="100" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="color">Color favorito:</label>
+                </td>
+                <td>
+                    <input type="color" id="color" name="color" value="#6b3e26">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="lenguaje">Lenguaje de programación:</label>
+                </td>
+                <td>
+                    <input list="lenguajes" id="lenguaje" name="lenguaje"
+                        placeholder="Escribe o selecciona un lenguaje" required>
+
+                    <datalist id="lenguajes">
+                        <option value="HTML">
+                        <option value="CSS">
+                        <option value="JavaScript">
+                        <option value="Python">
+                        <option value="Java">
+                        <option value="C++">
+                        <option value="PHP">
+                    </datalist>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Cancelar</button>
+                </td>
+            </tr>
+
+        </table>
+    </form>
+    <a href="formulario de subida de archivos.html"></a>
+    <a href="sistema de cotizacion.html"></a>
+
+</body>
+
+</html>

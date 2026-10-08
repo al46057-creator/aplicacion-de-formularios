@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sistema de cotizacion</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+    <style>
+        body {
+            background-color: #f3ead8;
+            font-family: "Times New Roman", serif;
+        }
+
+        h1 {
+            color: #049de9;
+        }
+
+        p {
+            color: #04c6dc;
+        }
+
+        table {
+            background-color: #fffaf0;
+            border: 1px solid #b89b7a;
+            padding: 15px;
+        }
+
+        td {
+            padding: 8px;
+        }
+
+        input, select {
+            padding: 5px;
+        }
+
+        button {
+            background-color: #05b4e4;
+            color: white;
+            padding: 8px 15px;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Sistema de cotización</h1>
+
+    <p>Solicita una cotización indicando la cantidad de artículos que deseas comprar.</p>
+
+    <form>
+        <table>
+
+            <tr>
+                <td colspan="2"><strong>Datos para la cotización</strong></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="nombre">Nombre:</label>
+                </td>
+                <td>
+                    <input type="text" id="nombre" name="nombre"
+                        placeholder="Escribe tu nombre" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="correo">Correo:</label>
+                </td>
+                <td>
+                    <input type="email" id="correo" name="correo"
+                        placeholder="ejemplo@correo.com" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="articulo">Artículo:</label>
+                </td>
+                <td>
+                    <input type="text" id="articulo" name="articulo"
+                        placeholder="Nombre del artículo" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="cantidad">Cantidad:</label>
+                </td>
+                <td>
+                    <input type="number" id="cantidad" name="cantidad"
+                        min="5" max="20" step="1"
+                        placeholder="Entre 5 y 20" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Cancelar</button>
+                </td>
+            </tr>
+
+        </table>
+    </form>
+    <a href="formulario de subida de archivos.html"></a>
+    <a href="index.html"></a>
+</body>
+
+</html>

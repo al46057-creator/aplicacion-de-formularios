@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>subida de archivos</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+    <style>
+        body {
+            background-color: #f3ead8;
+            font-family: "Times New Roman", serif;
+        }
+
+        h1 {
+            color: #061ce8;
+        }
+
+        p {
+            color: #1c06dd;
+        }
+
+        table {
+            background-color: #fafaf4;
+            border: 1px solid #fbfbf4;
+            padding: 15px;
+        }
+
+        td {
+            padding: 8px;
+        }
+
+        input, select {
+            padding: 5px;
+        }
+
+        button {
+            background-color: #2405d6;
+            color: rgb(11, 11, 11);
+            padding: 8px 15px;
+            border: none;
+        }
+
+        progress {
+            width: 250px;
+            height: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Subida de archivos</h1>
+
+    <p>Sube tu documento o tarea escolar.</p>
+
+    <form>
+        <table>
+
+            <tr>
+                <td colspan="2"><strong>Datos del archivo</strong></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="nombre">Nombre del alumno:</label>
+                </td>
+                <td>
+                    <input type="text" id="nombre" name="nombre"
+                        placeholder="Escribe tu nombre" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="materia">Materia:</label>
+                </td>
+                <td>
+                    <input type="text" id="materia" name="materia"
+                        placeholder="Escribe la materia" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="archivo">Selecciona tu archivo:</label>
+                </td>
+                <td>
+                    <input type="file" id="archivo" name="archivo" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="progreso">Progreso de carga:</label>
+                </td>
+                <td>
+                    <progress id="progreso" value="70" max="100"></progress>
+                    70%
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Cancelar</button>
+                </td>
+            </tr>
+
+        </table>
+    </form>
+    <a href="sistema de cotizacion.html"></a>
+    <a href="index.html"></a>
+
+</body>
+
+</html>
